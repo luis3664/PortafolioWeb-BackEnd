@@ -19,6 +19,7 @@ com\porfolio\Porfolio\service\ITextCardService.class
 com\porfolio\Porfolio\PorfolioApplication.class
 com\porfolio\Porfolio\repository\TopicSkillRepository.class
 com\porfolio\Porfolio\service\IconService.class
+com\porfolio\Porfolio\WebConfig.class
 com\porfolio\Porfolio\repository\BarRepository.class
 com\porfolio\Porfolio\service\IItemService.class
 com\porfolio\Porfolio\repository\IconRepository.class
