@@ -13,6 +13,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin(origins = "https://porfolio-argentina-programa.web.app/")
 public class TopicSkillController {
     
     @Autowired
