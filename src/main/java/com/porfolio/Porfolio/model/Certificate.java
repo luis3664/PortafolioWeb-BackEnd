@@ -27,8 +27,9 @@ public class Certificate {
     
     @Basic
     private String urlCertificate;
+    private String date;
     
-    @Temporal(TemporalType.DATE)
-    private Date date;
+//    @Temporal(TemporalType.DATE)
+//    private Date date;
     
 }

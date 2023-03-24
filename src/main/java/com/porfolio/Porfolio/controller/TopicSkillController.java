@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "https://porfolio-argentina-programa.web.app/")
+//@CrossOrigin(origins = "http://localhost:4200/")
 public class TopicSkillController {
     
     @Autowired

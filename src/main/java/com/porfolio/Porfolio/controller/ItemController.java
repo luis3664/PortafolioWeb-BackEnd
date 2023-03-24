@@ -21,6 +21,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "https://porfolio-argentina-programa.web.app/")
+//@CrossOrigin(origins = "http://localhost:4200/")
 public class ItemController {
     
     @Autowired
@@ -156,6 +157,7 @@ public class ItemController {
 
         item.setCertificate(intCerti.readCertificate(idCertificate));
         item.setImgAssigned(listImg);
+        item.setSecAssigI(intSec.readSection(3));
 
         Item itemNew = intItem.crtItem(item);
 
